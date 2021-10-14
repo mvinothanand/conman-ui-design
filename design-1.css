@@ -55,6 +55,25 @@ body {
 
 .graph {
   width: 95%;
-  background-color: honeydew;
+  /* background-color: honeydew; */
   align-items: center;
+}
+
+.chart-img {
+  width: 80%;
+  padding: 5rem 2rem;
+}
+
+.btn {
+  border: none;
+  width: 10rem;
+  padding: .5rem;
+  margin: .25rem;
+  border-radius: .5rem;
+  background-color: #6d597a;
+  color: whitesmoke;
+}
+
+.btn:hover {
+  background-color: #355070;
 }
