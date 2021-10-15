@@ -12,47 +12,92 @@
   </head>
   <body>
     <section class="box">
-      <nav class="navbar">
-        <div class="navbar-brand">
-          <div class="navbar-item">
-            <p class="title">ConMan</p>
+      <div class="container">
+        <div class="level">
+          <div class="level-left">
+            <div class="level-item">
+              <p class="title has-text-info-dark">ConMan</p>
+            </div>
           </div>
-        </div>
-        <div class="navbar-menu">
-          <div class="navbar-end">
-            <div class="navbar-item">
+          <div class="level-right">
+            <div class="level-item">
               <div class="field has-addons">
                 <div class="control">
-                  <input type="text" class="input" placeholder="Find Projects" />
+                  <input
+                    type="text"
+                    class="input"
+                    placeholder="Find Projects"
+                  />
                 </div>
                 <div class="control">
-                  <button class="button is-dark">Search</button>
+                  <button class="button is-info">Search</button>
                 </div>
               </div>
             </div>
-        </div>
-      </nav>
-    </section>
-    <section class="box">
-      <div class="level">
-        <div class="level-left">
-          <div class="level-item">
-            <p class="title">ConMan</p>
-          </div>        
-        </div>
-        <div class="level-right">
-          <div class="level-item">
-                <div class="field has-addons">
-                  <div class="control">
-                    <input type="text" class="input" placeholder="Find Projects" />
-                  </div>
-                  <div class="control">
-                    <button class="button is-dark">Search</button>
-                  </div>
-                </div>
           </div>
         </div>
       </div>
+      <!-- <p class="subtitle is-hidden-mobile has-text-info">Project Analytics</p> -->
     </section>
+
+    <nav class="navbar has-background-info">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-burger" data-target="mainnav" role="button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+        <div class="navbar-menu" id="mainnav">
+          <div class="navbar-start">
+            <a class="navbar-item has-text-white">Overview</a>
+            <a class="navbar-item has-text-white">Bill-1</a>
+            <a class="navbar-item has-text-white">Bill-2</a>
+            <a class="navbar-item has-text-white">Bill-3</a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link has-text-white">More</a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item">Bill-4</a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item">Bill-4</a>
+                <hr class="navbar-divider" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+    </div>
+    <div class="tabs">
+      <div class="container">
+      <ul>
+        <li class="is-active">
+          <a href="">Overview</a>
+        </li>
+        <li>
+          <a href="">B1 - Preliminary</a>
+        </li>
+        <li>
+          <a href="">B2 - Excavation & Earthwork</a>
+        </li>
+      </ul>
+      </div>
+    </div>
+    <section class="section">
+    <div class="columns">
+      <div class="column has-background-dark is-2 has-text-info-dark">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corrupti quas maiores aperiam tempora expedita, quam quos earum nesciunt voluptatum odit minus? Odio quidem soluta nobis, assumenda dolor suscipit sunt.</p>
+      </div>
+      <div class="column has-background-success">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, architecto? Quibusdam nihil praesentium assumenda aspernatur voluptas. Dolorum velit deleniti, accusantium, ut tenetur quisquam voluptas, quasi distinctio harum consectetur saepe nesciunt?</p>
+      </div>
+    </section>
+    </div>
   </body>
 </html>
